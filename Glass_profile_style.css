@@ -1,0 +1,553 @@
+* 
+{ margin:0px ; padding:0px; box-sizing: border-box;  }
+
+.glassProfile
+{
+	width:100%;
+	height: auto;
+	overflow: hidden;
+/*	border: 2px solid #f00;*/
+	background: linear-gradient( to right top , #65dfc9 , #6cdbeb );
+
+}
+.glassProfile .glassProfileContainer
+{
+	width: 70%;
+	height: auto;
+	overflow: hidden;
+/*	border: 2px solid #0f0;	*/
+	margin: 30px auto;
+	background: linear-gradient( to right bottom , rgba(255,255,255,0.7) , rgba(255,255,255,0.3) );
+	border-radius: 30px ;
+}
+/* -------------------------------------------------- common syle of left , right part boxes ---------------------------------------- */
+.glassProfile .glassProfileContainer .leftProfile ,
+.glassProfile .glassProfileContainer .rightProfile
+{
+	float: left;
+	height: auto;
+	overflow: hidden;
+/*	border: 2px solid #00f;*/
+	padding: 10px;
+}
+/* ----------------------------------------------- left part boxes ---------------------------------------- */
+.glassProfile .glassProfileContainer .leftProfile
+{
+	width: 30%;
+	background: linear-gradient( to right bottom , rgba(255,255,255,0.7) , rgba(255,255,255,0.3) );
+	border-radius: 30px ;
+	text-align: center;
+}
+.glassProfile .glassProfileContainer .leftProfile .leftProfileHeader
+{
+	padding: 20px;
+/*	border: 2px solid #f0f;*/
+	margin-bottom: 20px;
+	text-align: center;
+}
+.glassProfile .glassProfileContainer .leftProfile .leftProfileHeader h3
+{
+	text-transform: capitalize;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+.glassProfile .glassProfileContainer .leftProfile .leftProfileBox
+{
+/*	border: 2px solid #f0f;*/
+	margin: 20px 30px;
+	
+}
+.glassProfile .glassProfileContainer .leftProfile .leftProfileBox img
+{
+	/* يكونوا علي نفس المستوي span عشان الصورة وال */
+	margin-bottom:-8px ;
+}
+.glassProfile .glassProfileContainer .leftProfile .leftProfileBox span
+{
+	font-size: 35px;
+	margin-left:40px;
+	color:#666;
+	text-transform: capitalize;
+}
+.glassProfile .glassProfileContainer .leftProfile .leftProfileContainer  .freeGameBox
+{
+	/* .leftProfileContainer هيكون عرضه 60 من عرض الاب اللي هوه فيه يعني */
+	width: 80%;
+	height: 100px;
+	overflow: hidden ;
+/*	border: 2px solid #000;*/
+	margin: 50px auto;
+	background: linear-gradient( to right top , #65dfc9 , #6cdbeb );
+	border-radius: 20px;
+	padding: 10px 10px;
+}
+.glassProfile .glassProfileContainer  .freeGameBox span
+{
+	width: 80px;
+	float: left;
+/*	border: 2px solid #f00;*/
+	color: #fff;
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 16px;
+}
+.glassProfile .glassProfileContainer  .freeGameBox img
+{
+	width: 100px;
+	height: 100%;
+/*	border: 2px solid #00f;*/
+}
+/* ------------------------------------------------------------ right part  ---------------------------------------------- */
+.glassProfile .glassProfileContainer .rightProfile
+{
+	/* padding-left , padding-right حيث العرض الاصلي هيكون 65 في المائة و 5 في المائة هيكونوا .glassProfileContainer حيث العرض الكلي هيكون 70 في المائة من عرض الاب اللي واخد كلاس  */
+	width: 65%;
+	margin-left:2.5% ;
+	margin-right:2.5% ;
+	margin-top: 5% ;
+ 	background: linear-gradient( to right bottom , rgba(32,191,89,0.3)  , rgba(32,164,243,0.7) );
+}
+/* ------------------------------------------- right part container  --------------------------------- */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+/*	border: 2px solid #f00;*/
+	padding: 20px;
+}
+
+/* --------------------------------- right part title ----------------------------------- */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer h3
+{
+	font-size: 40px;
+	margin-left: 5px;
+	font-family: sans-serif;
+}
+/* --------------------------------- right part search field container  ----------------------------------- */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .searchInputFieldContainer
+{
+	/* .rightProfileContainer  العرض هيكون 60 في المائة من عرض الاب اللي واخد كلاس  */
+	width: 60%;
+/*	border: 2px solid #f00;*/
+	height: auto;
+	overflow: hidden ;
+	padding:10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+ 	background: linear-gradient( to right bottom , rgba(255,255,255,0.7) , rgba(255,255,255,0.3) );
+	border-radius: 30px;
+}
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .searchInputFieldContainer input
+{
+	/* .searchInputFieldContainer  العرض هيكون 90 في المائة من عرض الاب اللي واخد كلاس  */
+	width: 80%;
+	float: left;
+	font-size: 18px;
+	outline: 0;
+	background-color:transparent;
+	border: 0 ;
+	padding-left: 5px;
+/*	border: 2px solid #ff0;*/
+}
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .searchInputFieldContainer i
+{
+	/* .searchInputFieldContainer  العرض هيكون 10 في المائة من عرض الاب اللي واخد كلاس  */
+	width: 20%;
+	float: left;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+/*	border: 2px solid #f0f;*/
+	text-align: center;
+
+}
+/* --------------------------------- right part boxes ----------------------------------- */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox
+{
+	width: 100% ;
+	height: auto;
+	overflow: hidden;
+/*	border: 2px solid #f00;*/
+	margin: 20px 0px;
+	background: linear-gradient( to left top ,rgba(255,255,255,0.8) , rgba(255,255,255,0.5) );
+}
+/* --------------------------------- right part boxes : image box ----------------------------------- */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxImg
+{
+	width: 22%;
+	float: left;
+/*	border: 2px solid #ff0;*/
+	padding: 10px;
+}
+/* --------------------------------- right part boxes : image box : <img> ----------------------------------- */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxImg img
+{
+	width: 100%;
+}
+/* --------------------------------- right part boxes : image box : <img> ----------------------------------- */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo
+{
+	width: 55%;
+	float: left;
+/*	border: 2px solid #ff0;*/
+}
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo h4
+{
+	font-size:20px;
+	padding-top:5px;
+}
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo p
+{
+	padding-top:15px;
+	color:#999 ;
+}
+/* ------------------   right part boxes :  progressbar style ------------------ */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress
+{
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+/*	border: 2px solid #0f0;*/
+	padding: 12px;
+	border-radius: 10px;
+	background:rgb(236,236,236);
+	margin-top:15px;
+}
+/* ------------------   right part boxes :  progressbar span style ------------------ */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress span
+{
+	position: absolute;
+	top: 0 ;
+	left: 0 ;
+/*	border: 2px solid #0f0;*/
+	padding: 12px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background: linear-gradient( to right top , #65dfc9 , #6cdbeb );
+}
+/* ---------------------------- first progressbar ------------------------------- */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress .progressbar1Span
+{
+	width: 60%;
+}
+
+/* ---------------------------- second progressbar ------------------------------- */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress .progressbar2Span
+{
+	width: 20%;
+}
+
+/* ---------------------------- third progressbar ------------------------------- */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress .progressbar3Span
+{
+	width: 90%;
+}
+/* ------------------   right part boxes :  percentage style ------------------ */
+.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxPercentage
+{
+	width: 18%;
+	float: left;
+/*	border: 2px solid #ff0;*/
+	text-align: right;
+	margin-top:33px;
+	font-size: 25px;
+	color:#65dfc9;
+	font-weight: bold;
+}
+/* ------------------------------------------------------------ responsive   ---------------------------------------------- */
+
+@media (min-width: 0px ) and (max-width: 810px)
+{
+	
+	.glassProfile .glassProfileContainer
+	{
+		border-radius: 0 ;	
+	}
+	/* ---------------------------------------- right part  ------------------------------------- */
+	.glassProfile .glassProfileContainer .leftProfile
+	{
+		width:100%;
+		margin: 0 ; 
+		padding: 0 ;
+		border-radius: 0 ;
+	}
+	/* ---------------------------------------- right part  ------------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile
+	{
+		width: 100%;
+		margin: 0 ; 
+		padding: 0 ;
+	}
+	/* ------------------------------------------- right part container  --------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer
+	{
+		width: 85%;
+		height: auto;
+		overflow: hidden;
+/*		border: 2px solid #f00;*/
+		text-align: center;
+		margin: 2px auto;
+	}
+	/* --------------------------------- right part title ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer h3
+	{
+		font-size: 30px;
+		margin-left: 5px;
+		font-family: sans-serif;
+	}
+	/* --------------------------------- right part search field container  ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .searchInputFieldContainer
+	{
+		/* .rightProfileContainer  العرض هيكون 60 في المائة من عرض الاب اللي واخد كلاس  */
+		width: 100%;
+	}
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .searchInputFieldContainer i
+	{
+		/* .searchInputFieldContainer  العرض هيكون 10 في المائة من عرض الاب اللي واخد كلاس  */
+		width: 20%;
+		float: left;
+		font-size: 20px;
+		padding: 0;
+		margin: 0;
+	/*	border: 2px solid #f0f;*/
+		text-align: center;
+
+	}
+	/* --------------------------------- right part boxes ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox
+	{
+		width: 100% ;
+		height: auto;
+		overflow: hidden;
+/*		border: 2px solid #f00;*/
+		margin: 50px 0px;
+		background: linear-gradient( to left top ,rgba(255,255,255,0.8) , rgba(255,255,255,0.5) );
+	}
+	/* --------------------------------- right part boxes : image box ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxImg
+	{
+		width: 100%;
+		float: left;
+/*		border: 2px solid #ff0;*/
+		padding: 10px;
+		text-align: center;
+	}
+	/* --------------------------------- right part boxes : image box : <img> ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxImg img
+	{
+		width: 50%;
+	}
+	/* --------------------------------- right part boxes : image box : <img> ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo
+	{
+		width: 100%;
+	}
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo h4
+	{
+		font-size:18px;
+	}
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo p
+	{
+		padding-top:12px;
+	}
+	/* ------------------   right part boxes :  progressbar style ------------------ */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress
+	{
+		position: relative;
+		float: left ;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	/*	border: 2px solid #0f0;*/
+		padding: 12px;
+		border-radius: 10px;
+		background:rgb(236,236,236);
+		margin-top:15px;
+	}
+	/* ------------------   right part boxes :  progressbar span style ------------------ */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress span
+	{
+		position: absolute;
+		top: 0 ;
+		left: 0 ;
+	/*	border: 2px solid #0f0;*/
+		padding: 12px;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		background: linear-gradient( to right top , #65dfc9 , #6cdbeb );
+	}
+	/* ---------------------------- first progressbar ------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress .progressbar1Span
+	{
+		width: 60%;
+	}
+
+	/* ---------------------------- second progressbar ------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress .progressbar2Span
+	{
+		width: 20%;
+	}
+
+	/* ---------------------------- third progressbar ------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress .progressbar3Span
+	{
+		width: 90%;
+	}
+	/* ------------------   right part boxes :  percentage style ------------------ */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxPercentage
+	{
+		width: 25%;
+/*		border: 2px solid #ff0;*/
+		text-align: right;
+		margin-top:10px;
+		margin-left:35%;
+		font-size: 25px;
+		color:#65dfc9;
+		font-weight: bold;
+	}
+}
+@media (min-width: 811px ) and (max-width: 1200px)
+{
+
+	/* -------------------------------------------------- common syle of left , right part boxes ---------------------------------------- */
+	.glassProfile .glassProfileContainer .leftProfile ,
+	.glassProfile .glassProfileContainer .rightProfile
+	{
+		width: 45%;
+		height: auto;
+		overflow: hidden;
+		box-sizing: border-box;
+		margin-left: 2.5% ;
+		margin-top: 10px;
+		padding: 0;
+	}
+		/* ------------------------------------------- right part container  --------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer
+	{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+/*		border: 2px solid #f00;*/
+		padding: 20px;
+	}
+	/* --------------------------------- right part title ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer h3
+	{
+		font-size: 30px;
+		margin-left: 5px;
+		font-family: sans-serif;
+	}
+	/* --------------------------------- right part search field container  ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .searchInputFieldContainer
+	{
+		/* .rightProfileContainer  العرض هيكون 60 في المائة من عرض الاب اللي واخد كلاس  */
+		width: 100%;
+	}
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .searchInputFieldContainer i
+	{
+		/* .searchInputFieldContainer  العرض هيكون 10 في المائة من عرض الاب اللي واخد كلاس  */
+		width: 20%;
+		float: left;
+		font-size: 20px;
+		padding: 0;
+		margin: 0;
+	/*	border: 2px solid #f0f;*/
+		text-align: center;
+
+	}
+	/* --------------------------------- right part boxes ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox
+	{
+		width: 100% ;
+		height: auto;
+		overflow: hidden;
+/*		border: 2px solid #f00;*/
+		margin: 50px 0px;
+		background: linear-gradient( to left top ,rgba(255,255,255,0.8) , rgba(255,255,255,0.5) );
+	}
+	/* --------------------------------- right part boxes : image box ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxImg
+	{
+		width: 100%;
+		float: left;
+/*		border: 2px solid #ff0;*/
+		padding: 10px;
+		text-align: center;
+	}
+	/* --------------------------------- right part boxes : image box : <img> ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxImg img
+	{
+		width: 50%;
+	}
+	/* --------------------------------- right part boxes : image box : <img> ----------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo
+	{
+		width: 100%;
+	}
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo h4
+	{
+		font-size:18px;
+	}
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo p
+	{
+		padding-top:12px;
+	}
+	/* ------------------   right part boxes :  progressbar style ------------------ */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress
+	{
+		position: relative;
+		float: left ;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	/*	border: 2px solid #0f0;*/
+		padding: 12px;
+		border-radius: 10px;
+		background:rgb(236,236,236);
+		margin-top:15px;
+	}
+	/* ------------------   right part boxes :  progressbar span style ------------------ */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress span
+	{
+		position: absolute;
+		top: 0 ;
+		left: 0 ;
+	/*	border: 2px solid #0f0;*/
+		padding: 12px;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		background: linear-gradient( to right top , #65dfc9 , #6cdbeb );
+	}
+	/* ---------------------------- first progressbar ------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress .progressbar1Span
+	{
+		width: 60%;
+	}
+
+	/* ---------------------------- second progressbar ------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress .progressbar2Span
+	{
+		width: 20%;
+	}
+
+	/* ---------------------------- third progressbar ------------------------------- */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxInfo .rightProfileBoxInfoProgress .progressbar3Span
+	{
+		width: 90%;
+	}
+	/* ------------------   right part boxes :  percentage style ------------------ */
+	.glassProfile .glassProfileContainer .rightProfile .rightProfileContainer .rightProfileBox .rightProfileBoxPercentage
+	{
+		width: 25%;
+/*		border: 2px solid #ff0;*/
+		text-align: right;
+		margin-top:10px;
+		margin-left:35%;
+		font-size: 25px;
+		color:#65dfc9;
+		font-weight: bold;
+	}
+
+}
